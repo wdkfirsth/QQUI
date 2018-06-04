@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/bg"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/daka"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/img1"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="打卡"/>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/er"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/log"
+        app:civ_border_color="@color/btn_false"
+        app:civ_border_width="3dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="doge☞VIP"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_false"
+        android:layout_toRightOf="@+id/icon_img"
+        android:layout_centerVertical="true"
+        />
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_below="@+id/icon_img"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/sun"
+
+            />
+
+        <ImageView
+
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/sun"
+
+            />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/sun"
+
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/star"
+
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/star"
+
+            />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/star"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/somgthing"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_height="wrap_content"
+        android:text="莫负"
+        android:textColor="@color/btn_false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>

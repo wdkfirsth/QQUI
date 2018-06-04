@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:padding="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/set"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:paddingLeft="5dp"
+            android:text="设置"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@+id/l1"
+        android:padding="10dp"
+        android:layout_marginLeft="60dp"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/night"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:paddingLeft="5dp"
+            android:text="夜间"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="240dp"
+        android:src="@mipmap/wdk"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title=""
+        android:icon="@mipmap/setx"
+        app:showAsAction="ifRoom"
+        >
+        <menu>
+<group>
+    <item android:id="@+id/talks"
+        android:icon="@mipmap/add"
+        android:title="创建群聊"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/add"
+
+        android:title="加好友/群"
+        android:icon="@mipmap/addfriends"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/sao"
+
+        android:title="扫一扫"
+        android:icon="@mipmap/sao"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/send"
+
+        android:title="面对面快传"
+        android:icon="@mipmap/send"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/pay"
+
+        android:title="付款"
+        android:icon="@mipmap/pay"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/take_photo"
+
+        android:title="拍照"
+        android:icon="@mipmap/takephoto"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/dance"
+
+        android:title="高能舞室"
+        android:icon="@mipmap/dance"
+        app:showAsAction="ifRoom"
+        />
+
+</group>
+        </menu>
+
+    </item>
+</menu>

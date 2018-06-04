@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/intex"
+        android:icon="@mipmap/infox"
+        android:title="消息"
+        />
+    <item android:id="@+id/friends"
+        android:icon="@mipmap/friendsx"
+        android:title="联系人"
+        />
+    <item android:id="@+id/info"
+        android:icon="@mipmap/lookx"
+        android:title="看点"
+        />
+    <item android:id="@+id/set"
+        android:icon="@mipmap/actionx"
+        android:title="动态"
+        />
+
+</menu>

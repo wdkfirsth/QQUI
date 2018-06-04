@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolBarTheme">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">5dp</item>
+
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <!--<item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>-->
+    </style>
+</resources>

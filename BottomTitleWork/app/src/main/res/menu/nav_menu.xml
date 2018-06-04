@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group
+      android:checkableBehavior="single">
+
+      <item android:id="@+id/nav_vip"
+          android:icon="@mipmap/vip"
+          android:title="了解会员特权"
+          />
+      <item android:id="@+id/nav_money"
+          android:icon="@mipmap/money"
+          android:title="QQ钱包"
+          />
+      <item android:id="@+id/nav_div"
+          android:icon="@mipmap/div"
+          android:title="个性装扮"
+          />
+      <item android:id="@+id/nav_like"
+          android:icon="@mipmap/like"
+          android:title="我的收藏"
+          />
+      <item android:id="@+id/nav_photo"
+          android:icon="@mipmap/photo"
+          android:title="我的相册"/>
+      <item  android:id="@+id/nav_file"
+          android:icon="@mipmap/file"
+          android:title="我的文件"
+          />
+      <item android:id="@+id/nav_wifi"
+          android:icon="@mipmap/wifi"
+          android:title="免流量特权"/>
+  </group>
+</menu>
