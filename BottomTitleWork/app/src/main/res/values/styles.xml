@@ -46,14 +46,13 @@
 
     <!--设置toolbar弹出菜单的位置-->
     <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
-
     <item name="android:dropDownVerticalOffset">5dp</item>
-
         <item name="overlapAnchor">false</item>  <!--设置为false即可使menu位置位于toolbar之下-->
     </style>
     <!--修改toolbar弹出剩余隐藏菜单条目按钮的样式-->
     <!--<style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">-->
         <!--<item name="android:src">@mipmap/setx</item>-->
     <!--</style>-->
-
+  <style name="gg" parent="AppTheme">
+  </style>
 </resources>
